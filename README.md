@@ -1,5 +1,10 @@
 # ESP8266_MotionDetection
-A project using the ESP8266 and motion sensor with the Arduino IDE and IFTTT.com for home security
+A project using the ESP8266 and motion sensor with the Arduino IDE and [IFTTT.com](https://ifttt.com/discover) for home security.
+
+I use this with IFTTT (If This Than That) webhooks to output into [Slack](https://slack.com/), which is then connected to my Raspberry Pi 
+Listening to Slack (and waiting for this trigger to take a picture from its camera and upload it into Slack. It's a very inexpensive
+"Security System." However, you can use the motion detector independently, if you wish. IFTTT makes it possible for you to do virtually
+anything from this one simple stimulus.
 
 ## Prerequisites
 This is a hardware and software project using very inexpensive hardware you can find widely available. 
@@ -40,7 +45,7 @@ extern const char* key="<YOUR IFTTT MAKER KEY>";
 
 For more on how to create Webhooks Maker applets, please visit [IFTTT.com](https://ifttt.com/maker_webhooks).
 
-Now, upload your Sketch to the ESP8266 and enjoy!
+Now, upload your Sketch to the ESP8266 and enjoy! When turned on, your IFTTT webhook maker should trigger with each movement.
 
 
 
