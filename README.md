@@ -25,11 +25,11 @@ The build instructions for the hardware are in the [Hardware directory](Hardware
 Obviously, you will need some way to program the ESP8266. Depending on your setup, there are many ways to do this (I've done it at least three ways so far), but here's a good way to get started at [DIY Hacking](https://diyhacking.com/esp8266-tutorial/).
 
 ### Software
-You must have install the current upstream Arduino IDE at the 1.8 level or later. The current version is at the [Arduino Website](https://www.arduino.cc/en/main/software).
+You need the current upstream Arduino IDE at the 1.8 level or later. The current version is at the [Arduino Website](https://www.arduino.cc/en/main/software).
 
 You will need to install the ESP8266 Ardino Core Library which you can find [here](https://github.com/esp8266/Arduino).
 
-Clone this repository into the Arduino directory. You will need to configure the software for your particular install by altering the cred.h file with your WiFi userID and password:
+Clone this repository into the Arduino directory, and configure the software for your particular install by altering the cred.h file with your WiFi userID and password:
 
 ```
 // Define the ssid and password
